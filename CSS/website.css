@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 40vh;
+    width: 100%;
+    border: 1px solid rgba(58, 156, 156, 0.699);;
+    text-align: center;
+    background-color: rgba(58, 156, 156, 0.699);
+    display: grid;
+    place-items: center;
+    
+}
+body{
+    overflow: hidden;
+    width: 100%;
+}
+.top-heading{
+    color: white;
+    margin-top: 100px;
+}
+.navbar ul{
+    display: flex;
+    background-color: rgb(56, 54, 54);
+
+}
+.navbar ul li {
+    padding: 15px;
+    margin-left: 15px;
+    color: rgb(56, 54, 54);
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* .search #input  {
+    color: white;
+    justify-items: end;
+    margin-top: -30px;
+} */
+
+.main-container{
+    display: flex;
+    
+}
+
+.about{
+    background-color: rgba(209, 209, 209, 0.932);
+    padding: 25px;
+}
+img{
+    background-color: rgba(128, 128, 128, 0.747);
+}
+.ab-img{
+    margin: 8px;
+}
+.title{
+    padding: 25px;
+    background-color: rgb(233, 233, 233);
+}
+footer{
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+
+}
+.navbar ul li :hover{
+    background-color: white;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: #000;
+}
+@media screen and (max-width: 700px){
+.main-container {
+        flex-direction: column;
+    
+}
+}
