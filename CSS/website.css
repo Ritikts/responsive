@@ -6,17 +6,15 @@
 }
 .header{
     height: 40vh;
-    width: 100%;
     border: 1px solid rgba(58, 156, 156, 0.699);;
     text-align: center;
     background-color: rgba(58, 156, 156, 0.699);
-    display: grid;
-    place-items: center;
+    display: block;
     
 }
 body{
     overflow: hidden;
-    width: 100%;
+    
 }
 .top-heading{
     color: white;
@@ -33,6 +31,9 @@ body{
     color: rgb(56, 54, 54);
     
     
+}
+.main{
+    display: block;
 }
 .navbar ul li a{
     text-decoration: none;
